@@ -1,0 +1,22 @@
+<div class="container">
+    <!-- <p>sign-up works!</p> -->
+    <div class="title">Hey, <b>Sign Up</b> to create your Account</div>
+    <form #RegisterUser="ngForm" (ngSubmit)="SignUp(RegisterUser.value)">
+        <input type="text" ngModel name="user_name" [(ngModel)]="name" placeholder="Name" required>
+        <input type="email" ngModel name="user_email" placeholder="Email" required>
+        <input type="password" ngModel name="user_password" placeholder="Password" required>
+        <button class="submitbtn">SignUp</button>
+    </form>
+    <div class="optn">
+        <span class="icn">
+            <span class="continue">Continue with : </span>
+            <img src="../assets/images/google.png" alt="">
+            <img src="../assets/images/facebook.png" alt="">
+        </span>
+        <div class="newUser">
+            <span>
+                Already have an Account?<b><a href="login">LogIn</a></b>
+            </span>
+        </div>
+    </div>
+</div>

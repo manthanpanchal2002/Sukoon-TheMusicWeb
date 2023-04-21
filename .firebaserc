@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sukoon-themusicweb": {
+      "hosting": {
+        "main": [
+          "sukoon-themusicweb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sukoon-themusicweb"
+  }
+}
