@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <main class="content">
+            <div class="title">Just Plug-In to <b>#sukoon</b></div>
+
+            <div class="song_list">
+
+                <table class="details">
+                    <tr class="details_title">
+                        <th></th>
+                        <th></th>
+                        <th><i class='bx bxs-music'></i></th>
+                        <th><i class='bx bxs-time-five'></i></th>
+                        <th><i class='bx bx-headphone'></i></th>
+                        <th></th>
+                    </tr>
+
+                    <!-- ========== Brown munde ========== -->
+                    <tr class="details_subtitle" (click)="play_brown_munde()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_1">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_1">
+                                <img src="../assets/images/brown_munde.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Brown munde</td>
+                        <td>04:28</td>
+                        <td>600M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Excuses ========== -->
+                    <tr class="details_subtitle" (click)="play_excuses()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_2">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_2">
+                                <img src="../assets/images/excuses.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Excuses</td>
+                        <td>02:57</td>
+                        <td>310K+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Wo noor ========== -->
+                    <tr class="details_subtitle" (click)="play_wo_noor()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_3">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_3">
+                                <img src="../assets/images/wo_noor.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Wo noor</td>
+                        <td>03:20</td>
+                        <td>10M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

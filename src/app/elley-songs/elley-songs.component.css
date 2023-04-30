@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+.title {
+    padding: 40px 40px 0 40px;
+    color: #22262b;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: .25rem;
+}
+
+.content:first-child b {
+    text-decoration: underline;
+    text-align: left;
+    color: #ff8fab;
+}
+
+
+.song_list {
+    padding: 40px;
+}
+
+table {
+    margin-top: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #a6a6a6;
+}
+
+
+.details {
+    font-weight: bold;
+    color: #a6a6a6;
+    font-weight: 100;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.details th,
+.details td {
+    text-align: center;
+    padding: 25px 15px 25px 15px;
+}
+
+.details th {
+    border-bottom: 0.5px solid #a6a6a6;
+    font-size: 20px;
+}
+
+.bx {
+    font-size: 1.50rem;
+}
+
+.details_subtitle:hover {
+    color: #ff8fab;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px #1029421a;
+}
+
+
+.details_subtitle:hover .bxs-share-alt {
+    color: #a6a6a6;
+}
+
+.details_subtitle:hover .bxs-share-alt:hover {
+    color: #ff8fab;
+    transition: 1s;
+    transition-timing-function: ease;
+}

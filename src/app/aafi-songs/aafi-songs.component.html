@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <main class="content">
+            <div class="title">Just Plug-In to <b>#sukoon</b></div>
+
+            <div class="song_list">
+
+                <table class="details">
+                    <tr class="details_title">
+                        <th></th>
+                        <th></th>
+                        <th><i class='bx bxs-music'></i></th>
+                        <th><i class='bx bxs-time-five'></i></th>
+                        <th><i class='bx bx-headphone'></i></th>
+                        <th></th>
+                    </tr>
+                    <tr class="details_subtitle" (click)="playsong()" (click)="main_img_toggle()" (click)="sound_ic_toggle()">
+                        <td><i class='bx bx-bookmark-heart' ></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="main_img">
+                                <img src="../assets/images/aafi_creation.png" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Let it go</td>
+                        <td>03:59</td>
+                        <td>234K+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

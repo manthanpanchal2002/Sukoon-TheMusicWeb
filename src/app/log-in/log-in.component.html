@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="title"><b>Welcome</b> back buddy !!</div>
+    <form #loginUser="ngForm" (ngSubmit)="LogIn(loginUser.value)">
+        <input type="text" [(ngModel)]="name"  name="user_name" placeholder="Username" required>
+        <!-- <input type="email"  ngModel name="user_email" placeholder="Email" required> -->
+        <input type="password"  ngModel name="user_password" placeholder="Password" required>
+        <a href="/ForgotPassword" class="forgot_passwd">Forgot Password?</a>
+        <br><br>
+        <button class="submitbtn">LogIn</button>
+    </form>
+    <div class="optn">
+        <span class="icn">
+            <span class="continue">Continue with : </span>
+            <div class="providers">
+                <img src="../assets/images/google.png" alt="">
+            </div>
+            <img src="../assets/images/facebook.png" alt="">
+        </span>
+        <div class="newUser">
+            <span>
+                Don't have Account?<b><a href="signup">SignUp</a></b>
+            </span>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <main class="content">
+            <div class="title">Just Plug-In to <b>#sukoon</b></div>
+
+            <div class="song_list">
+
+                <table class="details">
+                    <tr class="details_title">
+                        <th></th>
+                        <th></th>
+                        <th><i class='bx bxs-music'></i></th>
+                        <th><i class='bx bxs-time-five'></i></th>
+                        <th><i class='bx bx-headphone'></i></th>
+                        <th></th>
+                    </tr>
+
+                    <!-- ========== Agar tum mile jao ========== -->
+                    <tr class="details_subtitle" (click)="play_agar_tum_mile_jao()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_1">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_1">
+                                <img src="../assets/images/agar_tum_mile_jao.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Agar tum mile jao</td>
+                        <td>06:00</td>
+                        <td>11M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Deewani Mastani ========== -->
+                    <tr class="details_subtitle" (click)="play_deewani_mastani()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_2">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_2">
+                                <img src="../assets/images/deewani_mastani.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Deewani mastani</td>
+                        <td>05:47</td>
+                        <td>380K+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Manwa lage ========== -->
+                    <tr class="details_subtitle" (click)="play_manwa_lage()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_3">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_3">
+                                <img src="../assets/images/manwa_lage.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Manwa lage</td>
+                        <td>04:29</td>
+                        <td>230M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Hasi ban gaye ========== -->
+                    <tr class="details_subtitle" (click)="play_hasi_ban_gaye()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_4">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_4">
+                                <img src="../assets/images/hasi_ban_gaye.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Hasi ban gaye</td>
+                        <td>03:16</td>
+                        <td>30M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

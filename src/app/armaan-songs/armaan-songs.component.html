@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <main class="content">
+            <div class="title">Just Plug-In to <b>#sukoon</b></div>
+
+            <div class="song_list">
+
+                <table class="details">
+                    <tr class="details_title">
+                        <th></th>
+                        <th></th>
+                        <th><i class='bx bxs-music'></i></th>
+                        <th><i class='bx bxs-time-five'></i></th>
+                        <th><i class='bx bx-headphone'></i></th>
+                        <th></th>
+                    </tr>
+
+                    <!-- ========== Jab Tak ========== -->
+                    <tr class="details_subtitle" (click)="play_jab_tak()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_1">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_1">
+                                <img src="../assets/images/jabtak_msdhoni.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Jab tak</td>
+                        <td>03:31</td>
+                        <td>210M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Hua Hai aaj pehli bar ========== -->
+                    <tr class="details_subtitle" (click)="play_hua_hai_aaj_pehli_bar()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_2">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_2">
+                                <img src="../assets/images/hua_hai_aaj_pehli_bar_sanam_re.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Hua hai aaj pehli bar</td>
+                        <td>04:08</td>
+                        <td>600M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                    <!-- ========== Dil me ho tum ========== -->
+                    <tr class="details_subtitle" (click)="play_dil_me_ho_tum()">
+                        <td><i class='bx bx-bookmark-heart'></i></td>
+                        <td>
+                            <div class="sound_ic" [hidden]="sound_ic_3">
+                                <img src="../assets/images/sound.gif" alt="" style="height: 50px; border-radius: 5px;">
+                            </div>
+                            <div class="main_img" [hidden]="img_3">
+                                <img src="../assets/images/dil_me_ho_tum.jpeg" alt=""
+                                    style="height: 50px; border-radius: 5px;">
+                            </div>
+                        </td>
+                        <td>Dil me ho tum</td>
+                        <td>05:46</td>
+                        <td>300M+</td>
+                        <td><i class='bx bxs-share-alt'></i></td>
+                    </tr>
+
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
